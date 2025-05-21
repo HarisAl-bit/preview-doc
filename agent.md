@@ -78,8 +78,27 @@ Configure how your data is labeled and filtered to ensure the AI Agent uses it c
 
   This rule tells the agent to include only data where the `priority` value is 3 or higher.
 
-- Model Selection
-- Tools Integration
+### Model Selection
+Choose a language model to power your AI Agent. The selected model will handle how the agent understands user input and generates responses.
+
+Currently available models:
+- **Volantis Local LLM**  
+- **Anthropic Claude 3.5 Haiku**  
+
+### Tools Integration
+
+Enhance your AI Agent by integrating additional tools that extend its functionality and task-specific capabilities.
+
+Available tools:
+
+- **Model Tool**  
+  Attach a specific AI model to your agent to perform targeted tasks such as predictions or domain-specific analysis. For example, you can connect a model that forecasts currency exchange rates based on user input.
+
+- **Create/Write Schema**  
+  Enable your agent to interact with structured data by writing user inputs into a predefined schema and reading values from it.
+
+By integrating these tools, your agent becomes more powerful, flexible, and aligned with your unique workflows.
+
 
 ## 4. Create and Run a Job  
 - Click **"+ New Job"**, select the **pipeline data source**, and set the execution schedule.  
