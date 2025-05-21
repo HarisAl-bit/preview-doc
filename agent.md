@@ -21,7 +21,7 @@ The Agent feature in our platform enables you to create intelligent chatbots pow
 
 ### Agent Type
 
-![Agent](/documentation/agent/agent-3.webp)  
+![Agent Type](/documentation/agent/agent-type.webp)  
 
 You can select the type of agent based on your intended use case:
 
@@ -30,6 +30,8 @@ You can select the type of agent based on your intended use case:
 - **Processor**: *(Upcoming)*
 
 ### Basic Setting
+
+![Agent Config Basic](/documentation/agent/agent-basic-config.webp)  
 
 In this section, you can customize the core characteristics of your AI Agent to match your specific use case:
 
@@ -49,6 +51,8 @@ In this section, you can customize the core characteristics of your AI Agent to 
   Enable content filtering to control which topics the agent is allowed to discuss. This helps prevent the agent from responding to inappropriate, sensitive, or restricted queries.
 
 ### Data Source Configuration
+
+![Agent Source Config](/documentation/agent/agent-data-source.webp)  
 
 Configure how your data is labeled and filtered to ensure the AI Agent uses it correctly:
 
@@ -81,6 +85,9 @@ Configure how your data is labeled and filtered to ensure the AI Agent uses it c
   This rule tells the agent to include only data where the `priority` value is 3 or higher.
 
 ### Model Selection
+
+![Agent Model](/documentation/agent/agent-model.webp)  
+
 Choose a language model to power your AI Agent. The selected model will handle how the agent understands user input and generates responses.
 
 Currently available models:
@@ -88,6 +95,8 @@ Currently available models:
 - **Anthropic Claude 3.5 Haiku**  
 
 ### Tools Integration
+
+![Agent Tools](/documentation/agent/agent-selesct-tool.webp)  
 
 Enhance your AI Agent by integrating additional tools that extend its functionality and task-specific capabilities.
 
