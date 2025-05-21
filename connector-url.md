@@ -6,14 +6,16 @@ This tutorial explains how to upload a **file-based dataset from a URL** into **
 ---
 
 ## 1. Navigate to My Data  
-Go to **My Data**: [My Data](/vdata/my-data)
-
-![MyData Page](/vdata/documentation/mydata/url-1.webp)
+Go to **My Data**: [My Data](/my-data)
 
 ---
 
 ## 2. Upload from URL  
-1. Click the **"Upload Data"** button on the right panel.  
+
+![MyData Page](/documentation/mydata/url-1.webp)
+![Upload from URL](/documentation/mydata/url-2.webp)
+
+1. Click the **"+ New Data"** button on the right panel.  
 2. Switch to the **Upload from URL** tab.  
 3. Paste the **URL of your file** into the input field.  
    > Format URL :  
@@ -26,10 +28,8 @@ Go to **My Data**: [My Data](/vdata/my-data)
 - `.xlsx`, `.xls` (Excel files)  
 - `.json` (Structured JSON)  
 - `.sqlite`, `.db` (SQLite Database)  
-- `.txt`, `.tsv`, `.log`  
+- `.txt`
 - `.pdf`, `.docx`, `.pptx` *(limited preview for unstructured types)*
-
-![Upload from URL](/vdata/documentation/mydata/url-2.webp)
 
 ---
 
