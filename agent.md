@@ -28,7 +28,56 @@ You can select the type of agent based on your intended use case:
 - **Processor**: *(Upcoming)*
 
 ### Basic Setting
-- Data Source Configuration
+
+In this section, you can customize the core characteristics of your AI Agent to match your specific use case:
+
+- **Agent Name**  
+  Set a unique and recognizable name for your agent. This name will be displayed during interactions and helps identify the agent in multi-agent environments.
+
+- **Personality**  
+  Define how the agent communicates by setting its tone, behavior, and conversational style. For example, the agent can be friendly, professional, casual, or formal depending on your audience.
+
+- **Tasks (Jobs)**  
+  Specify the main responsibilities or goals of the agent. These tasks define what the agent is designed to do, such as answering questions, summarizing documents, or guiding users through a process.
+
+- **Language**  
+  Choose the language your agent will use to interact with users. Currently, two options are available: **English** and **Indonesian**. Selecting the appropriate language ensures the agent communicates effectively with your audience.
+
+- **Censorship**  
+  Enable content filtering to control which topics the agent is allowed to discuss. This helps prevent the agent from responding to inappropriate, sensitive, or restricted queries.
+
+### Data Source Configuration
+
+Configure how your data is labeled and filtered to ensure the AI Agent uses it correctly:
+
+- **Data Source Label**  
+  Assign a label to describe the role or type of each dataset. This helps the agent understand how to use the data in context.  
+  Available labels:
+  - **Data**: General raw information used for reference or processing.
+  - **Knowledge Base**: Structured information such as FAQs, manuals, or guides intended for direct user support.
+  - **Policy**: Official documents or rules that the agent must follow or reference.
+  - **Additional Context**: Supplemental data that helps the agent provide better answers, such as background info or definitions.
+
+- **Data Source Rules**  
+  Define filtering rules to control the topics your agent is allowed or not allowed to respond to. This helps ensure the agent only uses relevant and approved data when generating answers.
+
+  Each rule consists of:
+  - **Parameter Name**: The specific field or tag in the dataset to evaluate (e.g., `topic`, `category`, or `label`).
+  - **Operator**: The condition applied to the parameter. Available operators include:
+    - `equal`: Includes data where the parameter exactly matches the given value.
+    - `not equal`: Excludes data where the parameter matches the given value.
+    - `greater than`: Includes data where the parameter is greater than the specified value (numeric or date-based).
+    - `greater than or equal`: Includes data where the parameter is greater than or equal to the specified value.
+    - `less than`: Includes data where the parameter is less than the specified value.
+    - `less than or equal`: Includes data where the parameter is less than or equal to the specified value.
+
+  Example:
+  - Parameter Name: `priority`
+  - Operator: `greater than or equal`
+  - Value: `3`
+
+  This rule tells the agent to include only data where the `priority` value is 3 or higher.
+
 - Model Selection
 - Tools Integration
 
