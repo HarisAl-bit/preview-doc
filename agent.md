@@ -1,16 +1,7 @@
 # 🧠 AI Agent User Guide
 
 ## Overview  
-The **Volantis AI Agent** allows you to create intelligent, customizable chatbots powered by your own data.
-
-With the AI Agent, you can:
-
-* **Upload or connect datasets** from the **My Data** section as knowledge sources.  
-* **Configure agent behavior** including personality, tasks, language, and appearance.  
-* **Run jobs** to process the data and make it usable by the agent.  
-* **Test and deploy** the chatbot via embed, publish, or internal share options.  
-
-The AI Agent is designed to help automate support, provide instant insights, and streamline user interactions—directly within the Volantis ecosystem.
+The Agent feature in our platform enables you to create intelligent chatbots powered by your own datasets. You can easily upload or label data sources, configure the agent’s personality and behavior, define its tasks, and choose the AI model that best fits your use case. Additionally, you can enhance your agent by adding tools to extend its capabilities. Each agent can be customized and deployed to support a wide range of use cases, from customer service to internal automation providing a flexible, data-driven solution tailored to your needs.
 
 ## 1. Upload or Connect Data  
 - Navigate to the **My Data** menu and upload or link the required data to be used as a source for the AI Agent.  
@@ -27,10 +18,19 @@ The AI Agent is designed to help automate support, provide instant insights, and
 ![Pipeline](/documentation/agent/agent-3.webp)  
 
 ## 3. Configure the AI Agent  
-- Set the **agent name, personality, tasks, language, and data sensitivity** based on your needs.  
-- Click **Save** once the configuration is complete.  
 
-![Agent Settings](/documentation/agent/agent-4.webp)  
+### Agent Type
+
+You can select the type of agent based on your intended use case:
+
+- **Bot**: A chat-based agent designed to interact directly with users. This type allows the agent to respond to messages, answer questions, and perform tasks through conversational interfaces. It's suitable for customer support, virtual assistants, and knowledge-based interactions.
+
+- **Processor**: *(Upcoming)*
+
+### Basic Setting
+- Data Source Configuration
+- Model Selection
+- Tools Integration
 
 ## 4. Create and Run a Job  
 - Click **"+ New Job"**, select the **pipeline data source**, and set the execution schedule.  
