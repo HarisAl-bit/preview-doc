@@ -21,6 +21,8 @@ The Agent feature in our platform enables you to create intelligent chatbots pow
 
 ### Agent Type
 
+![Agent](/documentation/agent/agent-3.webp)  
+
 You can select the type of agent based on your intended use case:
 
 - **Bot**: A chat-based agent designed to interact directly with users. This type allows the agent to respond to messages, answer questions, and perform tasks through conversational interfaces. It's suitable for customer support, virtual assistants, and knowledge-based interactions.
