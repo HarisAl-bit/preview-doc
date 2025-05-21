@@ -20,8 +20,14 @@ Start by specifying your API endpoint configuration:
 | **Method**    | HTTP method to use: `GET`, `POST`, etc.                                      |
 | **Response Type** | Format of the API response: `collection`, `detail`, or `plaintext`         |
 
-The final URL will be composed as:  `https://demo.volantis.io/api/v1/metadata/connectors`
+**Methon**
+- `GET` The method for retrive data from the server
+- `POST` The method for sending data to the server
 
+**Response Type**
+- `collection` The response type Collection returns a list or group of items. It is used when the server sends multiple records or entries, such as a list of users, products, or articles.
+- `detail` The response type Detail returns information about a single specific item. It is used when the server sends data for one particular resource, such as details of a single user or product.
+- `plaintext` The response type Plaintext returns simple text data without any formatting or structure like JSON or XML. It is used when the server responds with raw text, such as a message or status note.
 ---
 
 ## 2. Add Custom Headers (Optional)  
