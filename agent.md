@@ -108,6 +108,9 @@ Available tools:
 - **Create/Write Schema**  
   Enable your agent to interact with structured data by writing user inputs into a predefined schema and reading values from it.
 
+- **Webpage** *(Upcoming)*
+- **Read Attacment** *(Upcoming)*
+
 By integrating these tools, your agent becomes more powerful, flexible, and aligned with your unique workflows.
 
 
