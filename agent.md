@@ -121,7 +121,7 @@ By integrating these tools, your agent becomes more powerful, flexible, and alig
 - Once the schedule is set, click Save Pipeline and Create Job to finalize and run the job.
 
 ## 5. Manage AI Agents  
-- Go to **Settings > Agent Management** to create or view the list of existing AI Agents.  
+- Go to **Agent Management** to create or view the list of existing AI Agents.  
 - Click **"New Agent Widget"** to create a new AI Agent.  
 
 ![Agent Management](/documentation/agent/agent-7.webp)  
