@@ -115,30 +115,61 @@ Available tools:
 By integrating these tools, your agent becomes more powerful, flexible, and aligned with your unique workflows.
 
 
-## 4. Save Pipeline & Run Job  
+## Save Pipeline & Run Job  
 - After configuring your pipeline, click the Save button. A popup will appear—select Save Pipeline & Run Job to proceed.
 - In the next step, set the execution schedule for the job according to your desired run time.
 - Once the schedule is set, click Save Pipeline and Create Job to finalize and run the job.
 
-## 5. Manage AI Agents  
+## Manage AI Agents  
 - Go to **Agent Management** to create or view the list of existing AI Agents.  
 - Click **"New Agent Widget"** to create a new AI Agent.  
 
 ![Agent Management](/documentation/agent/agent-management.webp)  
 
-## 6. Configure the Agent Widget  
-- Add a **widget name** and select an existing AI Agent.  
-- Set the **default first message** and customize the chatbot appearance to match your brand identity.  
-- Click **Create** when finished.  
+## Configure the Agent Widget  
+- Enter the Widget Name.  
+- Select an agent from the Select Agent dropdown (required).  
+- Set the Default First Message that will appear when the chat starts.
 
-![Widget Configuration](/documentation/agent/agent-8.webp)  
+### **Customize Your Widget Appearance and Behavior**  
 
-## 7. Test the Chatbot  
+1. **Style**:
+Customize the visual appearance of your widget, including:
+- Container Style: Set the background color.
+- Header Style: Modify header title, background, and text color.
+- Input Message Style: Style the text input backgroud,  border and text color.
+- Button Send Message Style: Customize the send button background and forebackground.
+- Message Bubble Style: Adjust the background, border, and text color of the chat bubbles for both the user and the agent.
+- Avatar: Enable and configure the avatar for your agent.
+- Floating Button Style: Design the floating button (size, background, icon).
+
+2. **Paramaters** :
+Input key-value pairs that will be used as variables in the agent’s rule logic to control dynamic behavior.
+
+3. **Opt In Form**
+This section allows you to create custom forms that appear during the chat conversation.
+- When to show: Set the trigger point for displaying the form (e.g., Start of conversation).
+- Template: Write the message that will be shown before the form fields, and use @ to reference any added fields.
+- Form Fields: Click Add Field to insert input fields such as text, email, or dropdowns.
+- Success Message: Customize the message users see after submitting the form (e.g., Thank you for your submission!).
+- Use Preview to see how the form looks, and toggle Enabled to activate or deactivate the form.
+- You can add multiple forms using the Add Form button.
+
+4. **Agent Detail**
+This section provides configuration and descriptive information about the AI Agent’s setup and behavior.
+- Pipeline & Job: Displays the associated pipeline and latest job used by the agent.
+- Data Source: Indicates the knowledge base or dataset connected to the agent.
+- Tools: Lists tools the agent can access. If none are added, it will show a message like "The agent does not have any tools."
+- Personality: Defines the agent’s tone and communication style. Write a short description that shapes how the agent interacts with users.
+- Job: Explains the main purpose or function of the agent. This field can also include external references or guidelines for the agent to follow when answering.
+- Censorship: Shows whether the agent has any content restrictions or moderation rules applied.
+
+## Test the Chatbot  
 - Run a test to ensure all features are working correctly and meet expectations.  
 
 ![Chatbot Test](/documentation/agent/agent-9.webp)  
 
-## 8. Publish the AI Agent  
+## Publish the AI Agent  
 
 ![Chatbot Test](/documentation/agent/agent-10.webp)  
 
