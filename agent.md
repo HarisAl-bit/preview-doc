@@ -103,10 +103,12 @@ Enhance your AI Agent by integrating additional tools that extend its functional
 Available tools:
 
 - **Model Tool**  
+  ![Agent Model Tools](/documentation/agent/agent-selesct-tool.webp)  
   Attach a specific AI model to your agent to perform targeted tasks such as predictions or domain-specific analysis. For example, you can connect a model that forecasts currency exchange rates based on user input.
 
 - **Create/Write Schema**  
   Enable your agent to interact with structured data by writing user inputs into a predefined schema and reading values from it.
+  To enable the Create/Write Schema feature on your AI Agent, first connect the Create/Write Schema transformer through the Tools Integration menu. Then, go to  the Jobs section and provide clear instructions in the prompt so the agent knows how to fill in the database schema based on user input.
 
 - **Webpage** *(Upcoming)*
 - **Read Attacment** *(Upcoming)*
