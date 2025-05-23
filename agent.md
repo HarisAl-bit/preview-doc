@@ -107,6 +107,7 @@ Available tools:
 
 - **Create/Write Schema**  
   Enable your agent to interact with structured data by writing user inputs into a predefined schema and reading values from it.
+  To enable the Create/Write Schema feature on your AI Agent, first connect the Create/Write Schema transformer through the Tools Integration menu. Then, go to  the Jobs section and provide clear instructions in the prompt so the agent knows how to fill in the database schema based on user input.
 
 - **Webpage** *(Upcoming)*
 - **Read Attacment** *(Upcoming)*
@@ -114,15 +115,10 @@ Available tools:
 By integrating these tools, your agent becomes more powerful, flexible, and aligned with your unique workflows.
 
 
-## 4. Create and Run a Job  
-- Click **"+ New Job"**, select the **pipeline data source**, and set the execution schedule.  
-- Click **Save**, then **Run** to process the data.  
-
-![New Job](/documentation/agent/agent-5.webp)  
-
-- Once completed, the system will display a **"Finish"** status, indicating that the job was successfully executed.  
-
-![New Job](/documentation/agent/agent-6.webp)  
+## 4. Save Pipeline & Run Job  
+- After configuring your pipeline, click the Save button. A popup will appear—select Save Pipeline & Run Job to proceed.
+- In the next step, set the execution schedule for the job according to your desired run time.
+- Once the schedule is set, click Save Pipeline and Create Job to finalize and run the job.
 
 ## 5. Manage AI Agents  
 - Go to **Settings > Agent Management** to create or view the list of existing AI Agents.  
