@@ -103,7 +103,6 @@ Enhance your AI Agent by integrating additional tools that extend its functional
 Available tools:
 
 - **Model Tool**  
-  ![Agent Model Tools](/documentation/agent/agent-selesct-tool.webp)  
   Attach a specific AI model to your agent to perform targeted tasks such as predictions or domain-specific analysis. For example, you can connect a model that forecasts currency exchange rates based on user input.
 
 - **Create/Write Schema**  
@@ -116,15 +115,10 @@ Available tools:
 By integrating these tools, your agent becomes more powerful, flexible, and aligned with your unique workflows.
 
 
-## 4. Create and Run a Job  
-- Click **"+ New Job"**, select the **pipeline data source**, and set the execution schedule.  
-- Click **Save**, then **Run** to process the data.  
-
-![New Job](/documentation/agent/agent-5.webp)  
-
-- Once completed, the system will display a **"Finish"** status, indicating that the job was successfully executed.  
-
-![New Job](/documentation/agent/agent-6.webp)  
+## 4. Save Pipeline & Run Job  
+- After configuring your pipeline, click the Save button. A popup will appear—select Save Pipeline & Run Job to proceed.
+- In the next step, set the execution schedule for the job according to your desired run time.
+- Once the schedule is set, click Save Pipeline and Create Job to finalize and run the job.
 
 ## 5. Manage AI Agents  
 - Go to **Settings > Agent Management** to create or view the list of existing AI Agents.  
