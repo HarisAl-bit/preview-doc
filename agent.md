@@ -124,7 +124,7 @@ By integrating these tools, your agent becomes more powerful, flexible, and alig
 - Go to **Agent Management** to create or view the list of existing AI Agents.  
 - Click **"New Agent Widget"** to create a new AI Agent.  
 
-![Agent Management](/documentation/agent/agent-7.webp)  
+![Agent Management](/documentation/agent/agent-management.webp)  
 
 ## 6. Configure the Agent Widget  
 - Add a **widget name** and select an existing AI Agent.  
